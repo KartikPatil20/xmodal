@@ -26,7 +26,7 @@ function App() {
   const handleSubmit = () => {
     
 
-    if (!formData.username || !formData.email || !formData.dob || !formData.phone) {
+    if (!formData.username) {
       alert("Please fill out all fields.");
       return;
     }
