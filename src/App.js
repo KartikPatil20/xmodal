@@ -24,10 +24,8 @@ function App() {
   };
 
   const handleSubmit = () => {
-    
 
     if (!formData.username) {
-      alert("Please fill out all fields.");
       return;
     }
 
